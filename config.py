@@ -42,7 +42,7 @@ class config(object):
 	def get_smtp_ldap_groups(self):
 		"""
 		возвращает список секций файла конфигурации,
-		содержащих настройки ldap-групп
+		содержащих настройки требуемых ldap-групп
 		"""
 		groups = {}
 		group_key = 0
